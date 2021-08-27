@@ -1,1 +1,0 @@
-{"version":3,"file":"basic-blocks-actions.js","sourceRoot":"","sources":["../../../../src/interface/actions/basic-blocks-actions.ts"],"names":[],"mappings":";;AAAa,QAAA,iBAAiB,GAAG,mBAAmB,CAAC;AAErD,yBAAgC,MAAM;IAClC,MAAM,CAAC;QACH,IAAI,EAAE,yBAAiB;QACvB,KAAK,EAAE,MAAM;KAChB,CAAC;AACN,CAAC;AALD,0CAKC"}

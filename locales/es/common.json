@@ -1,0 +1,193 @@
+{
+    "fileBar": {
+        "file": {
+            "name": "Archivo",
+            "load": "Cargar"
+        },
+        "view": {
+            "name": "Ver",
+            "basicBlocks": "Bloques básicos"
+        },
+        "config": {
+            "name": "Opciones",
+            "superescalar": "Configurar Máquina Superescalar",
+            "vliw": "Configurar Máquina VLIW",
+            "options": "Opciones",
+            "content": "Cargar contenido Memoria - Registros"
+        },
+        "execute": {
+            "name": "Ejecutar",
+            "init": "Iniciar",
+            "pause": "Pausar",
+            "stop": "Detener",
+            "back": "Atrás",
+            "forward": "Adelante"
+        },
+        "experimentation": {
+            "name": "Experimentación",
+            "batch": "Ejecución por lotes"
+        },
+        "help": {
+            "name": "Ayuda",
+            "docs": "Documentación",
+            "about": "Acerca de..."
+        }
+    },
+    "accessBar": {
+        "cycle": "Ciclo",
+        "speed": "Velocidad",
+        "superescalar": "Superescalar",
+        "memReg": "Memoria - Registros",
+        "vliw": "VLIW"
+    },
+    "authorModal": {
+        "title": "Acerca de...",
+        "originalAuthor": "Autor original",
+        "newAuthor": "Versión adapta por",
+        "coAuthor": "En colaboración con"
+    },
+    "loadModal": {
+        "title": "Carga de código",
+        "load": "Cargar"
+    },
+    "loadContentModal": {
+        "title": "Carga de contenido Memoria - Registros",
+        "load": "Cargar"
+    },
+    "intervalModal": {
+        "intervalMessage": "Seleccione los elementos que desea mostrar. Puede usar números e intervalos separados por comas. Ej: 1,4,6-8...",
+        "errors": {
+            "noEmptyInput": "Debe rellenar el campo del formulario",
+            "inputOutOfRange": "Alguno de los valores excede el máximo rango visible",
+            "noInputNumber": "Introduzca solamente números para el rango"
+        }
+    },
+    "superescalarModal": {
+        "name": "Configuración",
+        "latency": "Latencia",
+        "quantity": "Cantidad",
+        "Integer+": "Suma entera",
+        "Integerx": "Multiplicación entera",
+        "Floating+": "Suma flotante",
+        "Floatingx": "Multiplicación flotante",
+        "Memory": "Memoria",
+        "Jump": "Salto",
+        "cacheFail": "Fallo de caché",
+        "issue": "Emisión",
+        "default": "Valores por defecto"
+    },
+    "vliwModal": {
+        "name": "Configuración VLIW",
+        "latency": "Latencia",
+        "quantity": "Cantidad",
+        "Integer+": "Suma entera",
+        "Integerx": "Multiplicación entera",
+        "Floating+": "Suma flotante",
+        "Floatingx": "Multiplicación flotante",
+        "Memory": "Memoria",
+        "Jump": "Salto",
+        "cacheFail": "Fallo de caché",
+        "issue": "Emisión",
+        "default": "Valores por defecto"
+    },
+    "optionsModal": {
+        "title": "Opciones",
+        "cacheFail": "% Fallo caché"
+    },
+    "commonButtons": {
+        "close": "Cerrar",
+        "save": "Guardar",
+        "accept": "Aceptar",
+        "launch": "Lanzar",
+        "uploadFromFile": "Subir código superescalar",
+        "uploadVliwFromFile": "Subir código VLIW"
+    },
+    "Code": "Código",
+    "Jump table": "Tabla de saltos",
+    "Prefetch": "Prefetch",
+    "Decoder": "Decodificador",
+    "Reserve Stations": "Estaciones de reserva",
+    "Integer +": "Suma entera",
+    "Integer x": "Multiplicación entera",
+    "Floating +": "Suma flotante",
+    "Floating x": "Multiplicación flotante",
+    "Memory": "Memoria",
+    "Jump": "Salto",
+    "UF": "U. F.",
+    "+Entera": "+Entera",
+    "xEntera": "xEntera",
+    "+Flotante": "+Flotante",
+    "xFlotante": "xFlotante",
+    "Mem": "Memoria",
+    "JumpUF": "Salto",
+    "AluMem": "Alu Dir.",
+    "ROB<->GPR": "ROB<->GPR",
+    "ROB<->FPR": "ROB<->FPR",
+    "reorderBuffer": {
+        "Inst": "Inst",
+        "Destiny": "Destino",
+        "Value": "Valor",
+        "A": "Dir",
+        "Stage": "Etapa"
+    },
+    "Memoria": "Memoria",
+    "Registros generales": "Registros generales",
+    "Registros de punto flotante": "Registros de punto flotante",
+    "execution": {
+        "stopped": "Ejecución detenida en breakpoint",
+        "finished": "Ejecución finalizada"
+    },
+    "batchModal": {
+        "title": "Ejecución por lotes",
+        "replications": "Réplicas",
+        "cacheFailPercentage": "Porcentaje de fallos de caché",
+        "cacheFailLatency": "Latencia en fallos de cachés"
+    },
+    "batchResults": {
+        "title": "Resultados de la ejecución por lotes",
+        "replications": "Réplicas",
+        "average": "Número medio de ciclos por ejecución",
+        "standardDeviation": "Desviación éstandar",
+        "worst": "Peor caso",
+        "best": "Mejor caso"
+    },
+    "landingPage": {
+        "pagetitle": "SIMDEWeb",
+        "description": "Mucho más que un simulador...",
+        "read": "Leer más",
+        "home": "Home",
+        "project": "Proyecto",
+        "superescalar": "Superescalar",
+        "superescalar_description": "Simula el funcionamiento de una máquina superescalar ejecutando tu código paso a paso!",
+        "go": "Ir",
+        "vliw": "VLIW",
+        "vliw_description": "Simula el funcionamiento de una máquina VLIW ejecutando tu código paso a paso!",
+        "licency": "@liberado bajo licencia GPLv3"
+
+    },
+    "projectPage": {
+        "pagetitle": "SIMDEWeb",
+        "home": "Home",
+        "project": "Proyecto",
+        "whatsimde": "¿Qué es SIMDEWeb?",
+        "simdedescription1": "SIMDE es un simulador para apoyar la enseñanza de arquitecturas ILP (Paralelismo de nivel de instrucción).",
+        "simdedescription2": "Este simulador es una representación visual de una ejecución de máquina Superecalar y los estudiantes pueden ver cómo las instrucciones se mueven a través de las múltiples etapas de la tubería.",
+        "simdedescription3": "Esto hace más fácil aprender conceptos tales como el algoritmo de Tomasulo y el propósito de estructuras tales como el buffer de reorden.",
+        "tecnology": "Tecnologías",
+        "tecnologydescription": "SIMDE esta desarrollado con TypeScript, React, Redux, Sass y Webpack.",
+        "howtouse": "¿Cómo se usa?",
+        "howtousedescription": "¡Prueba y aprende!",
+        "problems": "¿Problemas?",
+        "problemsdescription": "Puedes consultar nuestra documentación",
+        "licency": "@liberado bajo licencia GPLv3"
+       
+    },
+    "planificator": {
+        "IntegerAdd": "+Entera",
+        "IntegerMult": "xEntera",
+        "FloatAdd": "+Flotante",
+        "FloatMult": "xFlotante",
+        "Memory": "Memoria",
+        "Jump": "Salto"
+    }
+}

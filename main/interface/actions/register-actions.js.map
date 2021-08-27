@@ -1,1 +1,0 @@
-{"version":3,"file":"register-actions.js","sourceRoot":"","sources":["../../../../src/interface/actions/register-actions.ts"],"names":[],"mappings":";;AAAa,QAAA,oBAAoB,GAAG,sBAAsB,CAAC;AAE3D,4BAAmC,IAAI;IACnC,MAAM,CAAC;QACH,IAAI,EAAE,4BAAoB;QAC1B,KAAK,EAAE,IAAI;KACd,CAAC;AACN,CAAC;AALD,gDAKC"}
