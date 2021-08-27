@@ -1,0 +1,1 @@
+{"version":3,"file":"load.js","sourceRoot":"","sources":["../../../../src/interface/actions/load.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,IAAM,iBAAiB,GAAG,mBAAmB,CAAC;AAErD,MAAM,2BAA2B,IAAI;IACjC,MAAM,CAAC;QACH,IAAI,EAAE,iBAAiB;QACvB,KAAK,EAAE,IAAI;KACd,CAAC;AACN,CAAC"}
