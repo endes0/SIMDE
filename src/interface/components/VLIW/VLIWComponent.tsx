@@ -3,6 +3,7 @@ import * as React from "react";
 import { t } from 'i18next';
 import { Tabs, Tab } from "react-bootstrap";
 import VliwConfigModalComponent from "./modal/VliwConfigModalComponent";
+import VLIWCodeModalComponent from "./modal/VLIWCodeModalComponent"
 import OptionsModalComponent from "../Superescalar/modal/OptionsModalComponent";
 import AutorModalComponent from "./modal/AutorModalComponent";
 
@@ -33,8 +34,10 @@ export const VLIWComponent = () => (
                 <RegisterVLIWTabComponent />
             </Tab>
         </Tabs>
+        
         <VLIWLoadModalComponent />
         <VliwLoadContentModalComponent />
+        <VLIWCodeModalComponent />
         <VliwConfigModalComponent />
         <OptionsModalComponent />
         <AutorModalComponent />

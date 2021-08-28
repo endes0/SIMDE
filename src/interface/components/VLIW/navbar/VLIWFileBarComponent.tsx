@@ -2,7 +2,7 @@ import * as React from 'react';
 import { translate } from 'react-i18next';
 import { t } from 'i18next';
 import { connect } from 'react-redux';
-import { toggleLoadModal, toggleAuthorModal, toggleOptionsModal, toggleVliwConfigModal, toggleBatchModal, toggleVliwLoadContentModal } from '../../../actions/modals';
+import { toggleLoadModal, toggleAuthorModal, toggleOptionsModal, toggleVliwCodeModal, toggleVliwConfigModal, toggleBatchModal, toggleVliwLoadContentModal } from '../../../actions/modals';
 import { bindActionCreators } from 'redux';
 import { DropdownButton, MenuItem } from 'react-bootstrap';
 import { viewBasicBlocks } from '../../../actions';
@@ -24,7 +24,9 @@ class VLIWFileBarComponent extends React.Component<any, any> {
                         noCaret
                     >
                         <MenuItem eventKey="1" onClick={() => { this.props.actions.toggleLoadModal(true) }}>{t('fileBar.file.load')}</MenuItem>
+                        <MenuItem eventKey="2" onClick={() => { this.props.actions.toggleVliwCodeModal(true) }}>{t('fileBar.file.vliwCode')}</MenuItem>
                     </DropdownButton>
+        
                     <DropdownButton
                         title={t('fileBar.view.name')}
                         key={'dropdown-view'}
@@ -85,6 +87,7 @@ function mapDispatchToProps(dispatch) {
     return { actions: bindActionCreators({ 
         toggleLoadModal,
         toggleAuthorModal,
+        toggleVliwCodeModal,
         toggleOptionsModal,
         toggleVliwConfigModal,
         toggleVliwLoadContentModal,

@@ -21,6 +21,7 @@ import {
     TOGGLE_OPTIONS_MODAL,
     TOGGLE_SUPER_CONFIG_MODAL,
     TOGGLE_VLIW_CONFIG_MODAL,
+    TOGGLE_VLIW_CODE_MODAL,
     TOGGLE_SUPERESCALAR_LOAD_CONTENT_MODAL,
     TOGGLE_VLIW_LOAD_CONTENT_MODAL,
     TOGGLE_BATCH_MODAL,
@@ -122,6 +123,7 @@ export const initialState = {
     isOptionsModalOpen: false,
     isSuperConfigModalOpen: false,
     isVliwConfigModalOpen: false,
+    isVliwCodeModalOpen: false,
     isSuperescalarLoadContentModalOpen: false,
     isVliwLoadContentModalOpen: false,
     isBatchModalOpen: false,
@@ -233,6 +235,11 @@ export function SuperescalarReducers(state = initialState, action) {
             return (state = {
                 ...state,
                 isVliwConfigModalOpen: action.value
+            });
+        case TOGGLE_VLIW_CODE_MODAL:
+            return (state = {
+                ...state,
+                isVliwCodeModalOpen: action.value
             });
         case TOGGLE_BATCH_MODAL:
             return (state = {
