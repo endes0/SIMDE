@@ -30,6 +30,8 @@ Just install docker and docker-compose and type:
 
 All services should be configurated and ready for deployment.
 
+Please beware that we copy the package.json each time we build the image so if you add more dependencies you should run `docker-compose build` in order to recreate the image.
+
 ## Troubling?
 
 If you have any doubt you should check [the official docs](https://etsiiull.gitbooks.io/simde/).
@@ -40,5 +42,6 @@ The project has been released under GPLv3 License.
 
 ---
 
-> [@adrianabreu](https://github.com/adrianabreu) &nbsp;&middot;&nbsp;
+> [@adrianabreu](https://github.com/adrianabreu) 
+> [@Melissa Díaz Arteaga](https://github.com/alu0100884012)
 > [@icasrod](https://twitter.com/icasrod)
