@@ -2,6 +2,7 @@ import * as React from 'react';
 import { translate } from 'react-i18next';
 import { t } from 'i18next';
 import { connect } from 'react-redux';
+import { saveAs } from 'file-saver';
 import { toggleLoadModal, toggleAuthorModal, toggleOptionsModal, toggleSuperConfigModal, toggleBatchModal, toggleSuperescalarLoadContentModal } from '../../../actions/modals';
 import { bindActionCreators } from 'redux';
 import { DropdownButton, MenuItem } from 'react-bootstrap';
@@ -24,6 +25,10 @@ class FileBarComponent extends React.Component<any, any> {
                         noCaret
                     >
                         <MenuItem eventKey="1" onClick={() => { this.props.actions.toggleLoadModal(true) }}>{t('fileBar.file.load')}</MenuItem>
+                        <MenuItem eventKey="2" onClick={() => { 
+                            var mem_blob = new Blob([JSON.stringify(this.props.memory)], {type: "text/plain;charset=utf-8"});
+                            saveAs(mem_blob, "memory.json");
+                         }}>{t('fileBar.file.download_memory')}</MenuItem>
                     </DropdownButton>
                     <DropdownButton
                         title={t('fileBar.view.name')}
@@ -78,6 +83,7 @@ class FileBarComponent extends React.Component<any, any> {
 const mapStateToProps = state => {
     return {
         isLoadModalOpen: state.isLoadModalOpen,
+        memory: state.Machine.memory
     }
 }
 

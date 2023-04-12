@@ -2,7 +2,8 @@
     "fileBar": {
         "file": {
             "name": "File",
-            "load": "Load"
+            "load": "Load",
+            "download_memory": "Download Memory"
         },
         "view": {
             "name": "View",

@@ -2,7 +2,8 @@
     "fileBar": {
         "file": {
             "name": "Archivo",
-            "load": "Cargar"
+            "load": "Cargar",
+            "download_memory": "Descargar Memoria"
         },
         "view": {
             "name": "Ver",
