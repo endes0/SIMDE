@@ -26,7 +26,7 @@ class FileBarComponent extends React.Component<any, any> {
                     >
                         <MenuItem eventKey="1" onClick={() => { this.props.actions.toggleLoadModal(true) }}>{t('fileBar.file.load')}</MenuItem>
                         <MenuItem eventKey="2" onClick={() => { 
-                            var mem_blob = new Blob([JSON.stringify(this.props.memory)], {type: "text/plain;charset=utf-8"});
+                            var mem_blob = new Blob([JSON.stringify(this.props.memory.data)], {type: "text/plain;charset=utf-8"});
                             saveAs(mem_blob, "memory.json");
                          }}>{t('fileBar.file.download_memory')}</MenuItem>
                     </DropdownButton>
